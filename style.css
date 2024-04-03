@@ -1,0 +1,78 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de encabezado */
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos de navegación */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Cambiado a blanco */
+}
+
+/* Estilos de sección */
+
+section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/* Estilos de pie de página */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para enlaces en la barra de navegación */
+
+nav ul li a:hover {
+    color: #ffc107; /* Cambiado a un amarillo suave */
+}
+
+/* Estilos para enlaces internos */
+
+a[href^="#"] {
+    color: #333; /* Cambiado a negro */
+    text-decoration: none;
+}
+
+a[href^="#"]:hover {
+    color: #007bff; /* Cambiado a un azul suave */
+}
